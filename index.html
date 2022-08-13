@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <! -- Task 1 - start -->
+    <form action="/" method="GET">
+      <div id="layout">
+        <label class="title source"
+          ><span class="selection">Select your source :</span>
+          <span class="line"></span>
+          <span class="google">Google Cloud Storage</span>
+        </label>
+        <label class="title left"
+          >Provide a name for pipeline: <span class="line"></span>
+          <input
+            type="text"
+            placeholder="e.g., cust_shop_energy_gkateway001"
+            required
+          />
+        </label>
+        <label class="title right">
+          GCS project name: <span class="line"></span>
+          <input type="text" placeholder="project-id" required />
+        </label>
+        <label class="title right">
+          GCS bucket name: <span class="line"></span>
+          <input type="text" placeholder="gs://your-bucket" required />
+        </label>
+        <label class="title left">
+          Input Cloud Storage File(s): <span class="line"></span>
+          <input
+            type="text"
+            placeholder="GCS location of your files"
+            required
+          />
+          <div class="example">
+            <p>
+              Example: <br />
+              gs://your-bucket/your-files/01.csv
+            </p>
+          </div>
+        </label>
+        <label class="title credentials"
+          >GCS credentials: <span class="line"></span>
+          <input type="text" required />
+        </label>
+        <label class="title run">
+          Run Every: <span class="line"></span>
+          <input type="number" placeholder="(in minutes)" min="0" />
+        </label>
+        <div class="button">
+          <button class="create" type="submit">Create</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </div>
+    </form>
+    <! -- Task 1 - end -->
+    <! -- Task 2 - start -->
+    <! -- Task 2 - end -->
+  </body>
 </html>

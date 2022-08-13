@@ -1,0 +1,86 @@
+h1 {
+  color: red;
+}
+.line {
+  border-left: 1.3px solid black;
+  height: 40px;
+  position: absolute;
+}
+label {
+  display: block;
+  padding: 25px;
+  position: relative;
+}
+input {
+  background: #f0f0f0;
+  width: 230px;
+  height: 32px;
+  border: none;
+  opacity: 0.6;
+  margin-left: 10px;
+}
+#layout {
+  border: 1px solid black;
+  height: auto;
+  width: 458px;
+  margin: 6% auto;
+  padding-left: 5px;
+}
+.left {
+  padding-left: 0;
+}
+.right {
+  margin-left: 31px;
+}
+.credentials {
+  margin-left: 42px;
+}
+.run {
+  margin-left: 80px;
+}
+.credentials input {
+  background-color: #c0c0c0;
+}
+.button {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+.create {
+  height: 33px;
+  width: 125px;
+  background-color: #4b9cd3;
+  color: black;
+  border: none;
+  font-size: 15px;
+  margin-right: 6px;
+}
+.cancel {
+  height: 33px;
+  width: 240px;
+  background-color: #4b9cd3;
+  color: black;
+  border: none;
+  font-size: 15px;
+}
+.example {
+  font-size: small;
+  margin-left: 193px;
+  opacity: 0.5;
+  margin-bottom: -50px;
+}
+div p {
+  padding: 0;
+}
+
+.source {
+  margin-left: 30px;
+}
+.google {
+  display: inline-block;
+  margin-left: 100px;
+}
+.selection {
+  display: inline-block;
+  margin-top: 10px;
+}
