@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
   const all = inputToArray.filter(
     (e) =>
       e.value.length < 5 ||
-      startsWith.includes(e.value) ||
+      startsWith.includes(e.value[0]) ||
       specialChars.test(e.value)
   );
 
